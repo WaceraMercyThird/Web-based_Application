@@ -1,25 +1,13 @@
-# Lists
-# import numbers
+# Getting input from users
 
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello" +" "+ name +" "+ "You are"+" "+age+" "+ "Years Old!")
 
-name = "joel"
-numbers = [2,3,4,5]
-fruits = ["Mango", "Oranges", "Papai", "PineApple"]
-print("mercy")
-print(numbers)
-print(fruits)
-print(len(fruits))
-fruits.append("Papai")
+# Building a basic Calculator
 
-# remove a string index in a list
-fruits.remove("Mango")
-fruits.insert(2, "Pineapple")
-fruits.insert(1, "Pineapple")
-fruits.reverse()
-fruits.sort()
-fruits[0] = "Potatos"
+num1 = input("Enter your number: ")
+num2 = input("Enter your another number: ")
+results = float(num1)+ float(num2)
 
-print(fruits)
-
-
-
+print(results)
