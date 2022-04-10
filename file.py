@@ -17,6 +17,7 @@ print(max_num(4, 40, 5))
 
 
 # strategy 2
+
 max_num = [4,40,5]               #Array of integers
 max_num.sort(reverse=True)        # sorted in descending order
 x = max_num[0]             
